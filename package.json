@@ -6,6 +6,9 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.0",
+    "axios": "^0.21.1",
+    "compromise": "^13.10.2",
+    "mongodb": "^3.6.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.3",
@@ -15,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "ingest-news-api": "node news-injest.js",
+    "keyword-news-injest": "node keyword-topic-injest.js"
   },
   "eslintConfig": {
     "extends": [
